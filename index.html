@@ -94,6 +94,9 @@ section.block{padding-top:44px}
 .opt{min-height:44px;padding:0 14px;border-radius:999px;border:1px solid var(--line2);background:var(--surface);font-size:15px;font-weight:500}
 .opt:hover{border-color:var(--ink)}
 .opt[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accentInk);font-weight:600}
+.presets{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;margin:0 0 18px;padding:0 0 16px;border-bottom:1px solid var(--line)}
+.presets .plab{font-weight:600;font-size:15px}
+.opt.preset{font-weight:700;letter-spacing:.04em}
 .quiz .go{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:6px}
 .ai{margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
 .ai label{display:block;font-weight:600;font-size:15px;margin-bottom:4px}
@@ -198,6 +201,11 @@ footer .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:spac
     </div>
     <div class="matchgrid">
       <form class="quiz" id="quiz" novalidate>
+        <div class="presets">
+          <span class="plab">Saved filter</span>
+          <button type="button" class="opt preset" id="bossman" aria-pressed="false">BOSS-MAN</button>
+          <button type="button" class="linkbtn" id="clearAll">Clear</button>
+        </div>
         <fieldset class="q"><legend>Where do you live?</legend>
           <div class="opts" data-q="loc" data-type="one">
             <button type="button" class="opt" data-v="seattle" aria-pressed="false">Seattle area</button>
@@ -746,6 +754,7 @@ function updateAnswered(){
   ["loc","format","med","minPay","time"].forEach(function(k){ if (answers[k] != null) n++; });
   if (answers.roles.length) n++;
   document.getElementById("answered").textContent = n ? n + " of 6 answered" : "Skip any question you like.";
+  document.getElementById("bossman").setAttribute("aria-pressed", isBossMan() ? "true" : "false");
 }
 
 document.querySelectorAll(".opts").forEach(function(group){
@@ -765,13 +774,38 @@ document.querySelectorAll(".opts").forEach(function(group){
   });
 });
 
-document.getElementById("quiz").addEventListener("submit", function(e){
-  e.preventDefault();
+function showMatches(scroll){
   showAllMatches = false;
   lastMatches = match(answers);
   renderMatches(lastMatches, lastMatches.length + " matches for you", "Best fit first");
-  var r = document.getElementById("results");
-  if (window.innerWidth < 900) r.scrollIntoView({ block:"start" });
+  if (scroll && window.innerWidth < 900) document.getElementById("results").scrollIntoView({ block:"start" });
+}
+document.getElementById("quiz").addEventListener("submit", function(e){
+  e.preventDefault();
+  showMatches(true);
+});
+
+/* ---------- saved filter ---------- */
+var BOSS_MAN = { loc:"seattle", format:"any", roles:["tech","student"], med:"1", minPay:"0", time:"session" };
+function setAnswers(a){
+  answers = { loc:a.loc || null, format:a.format || null, roles:(a.roles || []).slice(), med:a.med || null, minPay:a.minPay || null, time:a.time || null };
+  document.querySelectorAll(".opts").forEach(function(group){
+    var key = group.dataset.q;
+    group.querySelectorAll(".opt").forEach(function(o){
+      var on = key === "roles" ? answers.roles.indexOf(o.dataset.v) >= 0 : answers[key] === o.dataset.v;
+      o.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+  });
+  updateAnswered();
+}
+function isBossMan(){
+  return ["loc","format","med","minPay","time"].every(function(k){ return answers[k] === BOSS_MAN[k]; }) &&
+    answers.roles.length === BOSS_MAN.roles.length && BOSS_MAN.roles.every(function(r){ return answers.roles.indexOf(r) >= 0; });
+}
+document.getElementById("bossman").addEventListener("click", function(){ setAnswers(BOSS_MAN); showMatches(true); });
+document.getElementById("clearAll").addEventListener("click", function(){
+  setAnswers({});
+  document.getElementById("results").innerHTML = '<div class="empty"><b>Your matches will show up here.</b>Answer a few questions (or none) and tap Show my matches. You\'ll get a ranked list with the reason each one fits you.</div>';
 });
 
 /* ---------- AI matching (only inside a Claude viewer) ---------- */
@@ -894,7 +928,8 @@ document.getElementById("csvBtn").addEventListener("click", function(){
 
 /* ---------- start ---------- */
 document.getElementById("browseCta").textContent = "Browse all " + DB.length + " sources";
-renderLadder(); renderChips(); renderAll(); updateAnswered();
+renderLadder(); renderChips(); renderAll();
+setAnswers(BOSS_MAN); showMatches(false);
 })();
 </script>
 </body>
