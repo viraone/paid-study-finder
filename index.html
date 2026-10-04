@@ -128,6 +128,16 @@ section.block{padding-top:44px}
 .card .why{grid-column:1/-1;margin:8px 0 0;padding:10px 12px;border-radius:10px;background:var(--paySoft);color:var(--payInk);font-size:14.5px;font-weight:500}
 .card .foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;margin-top:10px}
 .card .note{font-size:13px;color:var(--muted)}
+.card .land{grid-column:1/-1;margin-top:12px;padding:12px 14px;border-radius:12px;background:var(--soft);font-size:14.5px;color:var(--body)}
+.card .land b{display:block;font-size:12.5px;font-weight:600;color:var(--accent);margin-bottom:6px}
+.card .land ul{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.card .land li{padding-left:24px;position:relative;line-height:1.4}
+.card .land li::before{position:absolute;left:0;top:0;width:18px;text-align:center;font-weight:700}
+.card .land li.go::before{content:"\2192";color:var(--pay)}
+.card .land li.info::before{content:"\2022";color:var(--muted)}
+.card .land li.skip::before{content:"\00D7";color:var(--warn)}
+.card .land .btnname{font-weight:650;color:var(--ink)}
+.card .land li.go .btnname{color:var(--payInk)}
 .visit{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:10px;border:1.5px solid var(--line2);font-weight:600;font-size:15px;text-decoration:none;background:var(--surface)}
 .visit:hover{border-color:var(--accent)}
 
@@ -379,7 +389,7 @@ var DB = [
   {id:"spherix",name:"Spherix Global Insights",cat:"hcp",pay:null,unit:"",payText:"Honoraria for surveys, interviews, and advisory boards.",online:true,req:"healthcare",time:["quick","session"],med:0,who:"Physicians.",how:"Register on the Spherix Community site and take the paid surveys you are invited to.",url:"https://community.spherixglobalinsights.com/"},
   {id:"incrowd",name:"InCrowd",cat:"hcp",pay:null,unit:"",payText:"Paid 5–10 minute mobile surveys.",online:true,req:"healthcare",time:["quick"],med:0,who:"Physicians.",how:"Register free on the InCrowd site and answer the 5 to 10 minute MicroSurveys sent by email or text.",url:"https://incrowdanswers.com/register"},
 
-  {id:"glg",name:"GLG",cat:"expert",pay:[75,1000],unit:"per hour",payText:"Early career $75–$150/hr, senior $200–$300/hr, top experts $1,000+.",online:true,req:"pro",time:["session"],med:0,who:"Professionals with real industry knowledge.",how:"Click Become a GLG Expert and create your profile. GLG contacts you when a project fits.",url:"https://glg.com/for-experts"},
+  {id:"glg",name:"GLG",cat:"expert",pay:[75,1000],unit:"per hour",payText:"Early career $75–$150/hr, senior $200–$300/hr, top experts $1,000+.",online:true,req:"pro",time:["session"],med:0,who:"Professionals with real industry knowledge.",how:"Click Become a GLG expert and create your profile. GLG contacts you when a customer's question matches your background, and you can say yes or no to each call.",land:[["Become a GLG expert","The button for you. Fill in a profile with your work history and the topics you know.","go"],["Already an expert? Log in","Only if you already made a profile.","info"],["Get started (top right)","For companies that want to buy calls. Skip it.","skip"],["Careers (top)","Jobs working at GLG. Skip it too.","skip"]],url:"https://glg.com/for-experts",note:"Calls can be rare. The more specific your experience, the more likely you get picked."},
   {id:"alphasights",name:"AlphaSights",cat:"expert",pay:[100,1000],unit:"per hour",payText:"Usually $100–$300/hr, senior experts $300–$800+.",online:true,req:"pro",time:["session"],med:0,who:"Professionals and former executives.",how:"Fill out the expert form on the Experts page (aimed at people with 10+ years of experience), or reply when they reach out on LinkedIn.",url:"https://www.alphasights.com/experts/"},
   {id:"guidepoint",name:"Guidepoint",cat:"expert",pay:[100,1000],unit:"per hour",payText:"Usually $100–$300/hr, senior experts $300–$800+.",online:true,req:"pro",time:["session"],med:0,who:"Professionals with industry experience.",how:"Fill out the advisor form on the Experts page. If a client project fits, Guidepoint invites you to join and finish verification.",url:"https://www.guidepoint.com/experts/"},
   {id:"coleman",name:"Coleman Research",cat:"expert",pay:[100,1000],unit:"per hour",payText:"Usually $100–$300/hr, senior experts $300–$800+.",online:true,req:"pro",time:["session"],med:0,who:"Professionals with industry experience.",how:"There is no open online form. Email memberservices@colemanrg.com with your background, or reply when their team reaches out.",url:"https://www.colemanrg.com/experts/"},
@@ -643,6 +653,9 @@ function card(s, why){
       '<div><b>How to join</b>' + esc(s.how) + '</div>' +
       '<div><b>Where</b>' + esc(where) + '</div>' +
     '</div>' +
+    (s.land ? '<div class="land"><b>When you open the site</b><ul>' + s.land.map(function(l){
+        return '<li class="' + l[2] + '"><span class="btnname">' + esc(l[0]) + '</span> ' + esc(l[1]) + '</li>';
+      }).join("") + '</ul></div>' : '') +
     '<div class="foot"><span class="note">' + esc(s.note || "") + '</span>' +
       '<a class="visit" href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">Visit site<span class="sr"> for ' + esc(s.name) + ' (opens in a new tab)</span></a></div>' +
   '</article>';
