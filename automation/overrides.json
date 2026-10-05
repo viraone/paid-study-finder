@@ -1,0 +1,59 @@
+{
+  "arbolus": {
+    "click": [
+      "Create an account with email"
+    ],
+    "formOnPage": false
+  },
+  "bloodworksresearchdonor": {
+    "click": [
+      "MY DONATION FORM"
+    ],
+    "note": "The donation form is lower on the page."
+  },
+  "findfocusgroups": {
+    "click": [
+      "Sign up for free"
+    ]
+  },
+  "opinionsforcash": {
+    "steps": [
+      "a Participant",
+      "SIGN UP TO PARTICIPATE"
+    ]
+  },
+  "thefocusroom": {
+    "steps": [
+      "Join Today"
+    ],
+    "click": []
+  },
+  "adlerweiner": {
+    "note": "Pick your region (Chicago, LA/OC or National), then fill the form."
+  },
+  "celerion": {
+    "note": "Pick your nearest Celerion site to create your participant profile."
+  },
+  "fortrea": {
+    "note": "Pick a study from the list that fits you, then press its apply button."
+  },
+  "fredhutchfoodbiomarker": {
+    "closed": true,
+    "note": "Recruitment is closed right now (the site says so)."
+  },
+  "bungieuserresearch": {
+    "note": "You need a free Bungie account: sign in there, then fill the research form."
+  },
+  "coleman": {
+    "note": "Coleman has no public expert sign-up form. Email or call from the Contact page."
+  },
+  "alphasights": {
+    "note": "Their site blocks automated browsers when testing. It usually works in the real window."
+  },
+  "pharmaronbaltimore": {
+    "note": "Fill the contact form lower on the page, or call 240-673-0900."
+  },
+  "altasciences": {
+    "note": "This site is slow or blocks automation. If the page looks empty, wait a moment, then use Learn More next to a study."
+  }
+}

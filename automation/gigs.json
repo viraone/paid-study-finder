@@ -1,0 +1,2363 @@
+{
+  "minPay": 50,
+  "builtAt": "2026-10-05T05:21:06.131Z",
+  "gigs": [
+    {
+      "id": "pharmaronbaltimore",
+      "name": "Pharmaron Clinical Pharmacology Center",
+      "category": "Medical & clinical studies",
+      "payLow": 4800,
+      "payHigh": 26300,
+      "unit": "per study",
+      "payText": "Current studies pay $4,800–$26,300. The highest pay is for a 29-day inpatient stay.",
+      "who": "Healthy adults about 18–65, depending on the study.",
+      "how": "Read the open studies, then call 240-673-0900 or email baltimore.recruiter@pharmaron-us.com to apply or join the volunteer database.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.pharmaron.com/services/clinical-development/clinical-trial-recruitment/clinical-trial-recruitment-us/",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "240.673.0900 / baltimore.recruiter@pharmaron-us.com",
+          "what": "No apply button. Call or email the recruiters to sign up for a study or the volunteer list."
+        }
+      ],
+      "note": "Fill the contact form lower on the page, or call 240-673-0900.",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://www.pharmaron.com/services/clinical-development/clinical-trial-recruitment/clinical-trial-recruitment-us/",
+        "clicked": [],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:35:33.924Z"
+      }
+    },
+    {
+      "id": "medpacephase1",
+      "name": "Medpace Phase I Unit",
+      "category": "Medical & clinical studies",
+      "payLow": 4150,
+      "payHigh": 13900,
+      "unit": "per study",
+      "payText": "Current studies list $4,150–$13,900 depending on visits and overnight stays. Pay comes per completed visit, and you can earn up to $300 for referrals.",
+      "who": "Healthy adults about 18–65, plus some studies for people with conditions like high blood pressure.",
+      "how": "Fill out the questionnaire on the study participant page or call (513) 366-3222. A recruiter will contact you about screening.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.medpace.com/study-participants/",
+      "click": [
+        "BECOME A STUDY PARTICIPANT"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "BECOME A STUDY PARTICIPANT",
+          "what": "The button for you. Fill in the questionnaire and a recruiter will call."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://vq.medpace.com/Default_Questionnaire.aspx",
+        "clicked": [
+          "BECOME A STUDY PARTICIPANT"
+        ],
+        "fieldCount": 11,
+        "note": null,
+        "at": "2026-10-05T04:26:46.511Z"
+      }
+    },
+    {
+      "id": "altasciences",
+      "name": "Altasciences",
+      "category": "Medical & clinical studies",
+      "payLow": 3350,
+      "payHigh": 32450,
+      "unit": "per study",
+      "payText": "Current studies list about $3,350–$7,000 in Kansas City and $5,850–$32,450 in Los Angeles. The longer studies involve stays of up to 35 nights.",
+      "who": "Healthy adults 18–65 (non-smokers for most studies), plus some studies for people with conditions such as obesity or diabetes.",
+      "how": "Pick a study on the Kansas City or Los Angeles participant site and apply. They say they'll contact you within two business days.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://participantsla.altasciences.com/current-studies",
+      "click": [
+        "Learn More"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Learn More (next to each study)",
+          "what": "Pick a study that fits you, open it, and press Apply."
+        }
+      ],
+      "note": "This site is slow or blocks automation. If the page looks empty, wait a moment, then use Learn More next to a study.",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://participantsla.altasciences.com/current-studies",
+        "clicked": [],
+        "fieldCount": 0,
+        "note": "This site was slow. Its page is open; look for the sign-up button.",
+        "at": "2026-10-05T04:41:35.855Z"
+      }
+    },
+    {
+      "id": "celerion",
+      "name": "Celerion",
+      "category": "Medical & clinical studies",
+      "payLow": 3250,
+      "payHigh": 6250,
+      "unit": "per study",
+      "payText": "Current US studies list $3,250–$6,250 each for about 1–3 weeks of stays and visits. US volunteers are paid through Hyperwallet, with direct deposit as an option.",
+      "who": "Healthy adults about 18–55, plus some studies for people with specific conditions.",
+      "how": "Browse open studies on Celerion's volunteer site, apply online or call 1-866-445-7033, then attend a screening visit.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://helpresearch.com/studies",
+      "click": [
+        "REGISTER"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "REGISTER (top right)",
+          "what": "The button for you. Make your volunteer account, then sign up for a study."
+        }
+      ],
+      "note": "Pick your nearest Celerion site to create your participant profile.",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://helpresearch.com/login",
+        "clicked": [
+          "REGISTER",
+          "GET STARTED",
+          "GET STARTED"
+        ],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:35:46.741Z"
+      }
+    },
+    {
+      "id": "nucleusnetworkminneapolis",
+      "name": "Nucleus Network Minneapolis",
+      "category": "Medical & clinical studies",
+      "payLow": 3000,
+      "payHigh": 11495,
+      "unit": "per study",
+      "payText": "Current studies list about $3,000–$11,495. A one-visit kidney health screening pays $50.",
+      "who": "Healthy adults and people with conditions such as kidney disease, diabetes or obesity. You must live within 300 miles of the clinic.",
+      "how": "Fill out the eligibility form for a study, talk with recruitment staff, then attend a free screening.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.nucleusnetwork.com/participants/find-a-trial/minneapolis-clinical-trials/",
+      "click": [
+        "Check your eligibility"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Check your eligibility (scroll down)",
+          "what": "The button for you. Fill in the short form so the team can match you."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.nucleusnetwork.com/participants/find-a-trial/minneapolis-clinical-trials/",
+        "clicked": [
+          "Check your eligibility"
+        ],
+        "fieldCount": 6,
+        "note": null,
+        "at": "2026-10-05T04:26:51.919Z"
+      }
+    },
+    {
+      "id": "biotrial",
+      "name": "Biotrial",
+      "category": "Medical & clinical studies",
+      "payLow": 2750,
+      "payHigh": 18000,
+      "unit": "per study",
+      "payText": "Current studies list $2,750–$4,100. Some longer studies have paid up to $18,000, plus $1,500–$3,000 travel reimbursement. Pay comes after each stay and visit, with a completion bonus.",
+      "who": "Healthy adults, plus some patient groups. Mainly people near NJ and NYC.",
+      "how": "Browse paid studies on Biotrial's site and apply. You'll need a drug test and health screening.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.biotrial.us/clinical-trials/",
+      "click": [
+        "Sign Up"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Sign Up (top right)",
+          "what": "The button for you. Make your volunteer profile."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.biotrial.us/sign-up/",
+        "clicked": [
+          "Sign Up"
+        ],
+        "fieldCount": 15,
+        "note": null,
+        "at": "2026-10-05T04:26:59.374Z"
+      }
+    },
+    {
+      "id": "icon",
+      "name": "ICON Phase 1 units",
+      "category": "Medical & clinical studies",
+      "payLow": 2000,
+      "payHigh": 13450,
+      "unit": "per trial",
+      "payText": "Up to $10,000–$13,450 for studies with multi-night stays.",
+      "who": "Healthy adults, often 18–65, usually non-smokers.",
+      "how": "Apply to a listed study and attend a screening visit.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://iconstudies.com",
+      "click": [
+        "apply now"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "apply now (under each featured study)",
+          "what": "The button for you. Pick a study and fill in its application."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://iconstudies.com/",
+        "clicked": [],
+        "fieldCount": 1,
+        "note": null,
+        "at": "2026-10-05T04:26:55.224Z"
+      }
+    },
+    {
+      "id": "fortrea",
+      "name": "Fortrea study participants",
+      "category": "Medical & clinical studies",
+      "payLow": 2000,
+      "payHigh": 10000,
+      "unit": "per trial",
+      "payText": "Phase 1 studies often pay around $2,000, more with longer stays.",
+      "who": "Healthy adults 18+.",
+      "how": "Browse paid studies in Dallas, Daytona Beach or Madison and apply online. Then attend a screening visit.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.fortreaclinicaltrials.com/en-us/clinical-research/browse-studies",
+      "click": [
+        "Study list"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Study list",
+          "what": "Pick Location, Gender and Age, press Apply Filters, then open a study and press Contact us about this study."
+        }
+      ],
+      "note": "Pick a study from the list that fits you, then press its apply button.",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://www.fortreaclinicaltrials.com/en-us/clinical-research/browse-studies",
+        "clicked": [],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:35:35.174Z"
+      }
+    },
+    {
+      "id": "qpsmissouri",
+      "name": "QPS Missouri",
+      "category": "Medical & clinical studies",
+      "payLow": 1500,
+      "payHigh": 7000,
+      "unit": "per study",
+      "payText": "Recent studies paid $1,500–$7,000. Longer inpatient stays pay more. Payment goes on a prepaid debit card.",
+      "who": "Healthy adults (some studies take people up to 84), plus people with conditions like type 2 diabetes.",
+      "how": "Fill out a participant application on the QPS Missouri site or call 417-831-2048. Studies fill fast, so check back often.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://417studies.com/",
+      "click": [
+        "Apply Now"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Apply Now → (top right)",
+          "what": "The button for you. Fill in the participant application."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://417studies.com/",
+        "clicked": [],
+        "fieldCount": 3,
+        "note": null,
+        "at": "2026-10-05T04:27:14.915Z"
+      }
+    },
+    {
+      "id": "frontageclinical",
+      "name": "Frontage Clinical Services",
+      "category": "Medical & clinical studies",
+      "payLow": 1220,
+      "payHigh": 9550,
+      "unit": "per study",
+      "payText": "Listings have shown about $1,220–$9,550 per study for time and travel, depending on the study. There's also a referral bonus.",
+      "who": "Healthy adults 18–65. Some studies look for specific groups, such as Asian volunteers or people who are surgically sterile.",
+      "how": "Sign up on the enroll page or call 1-877-298-9071 (option 1) to talk with a recruiter.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.frontagelab.com/enroll-in-a-study/",
+      "click": [
+        "Click Here for Future Study Consideration"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Click Here for Future Study Consideration",
+          "what": "The button for you. Pick the box that fits you and fill in the form."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.frontagelab.com/clinical-studies/new-asian-volunteers-needed-2/",
+        "clicked": [
+          "New Asian Volunteers Needed\nNEW VOLUNTEER ENROLLMENT\n Frontage Clinical Services is Looking for Asian Volunteers! \nBe part of our upcoming clinical studies and help advance medical science.\nWhy Join?\n✔ Contribute to important medical research\n✔ Support the development of future treatments\n✔ Play a key role in improving healthcare for all communities\n We welcome volunteers from all backgrounds to join our clinical research community. We’re especially interested in increasing participation from Asian communities to help make research more inclusive and representative.\n\nClick Here for Future Study Consideration"
+        ],
+        "fieldCount": 4,
+        "note": null,
+        "at": "2026-10-05T04:27:09.269Z"
+      }
+    },
+    {
+      "id": "fredhutchfoodbiomarker",
+      "name": "Fred Hutch Food Biomarker Study",
+      "category": "Medical & clinical studies",
+      "payLow": 1000,
+      "payHigh": 1000,
+      "unit": "per study",
+      "payText": "$1,000 for finishing all study activities. Meals are provided during three 9-day food periods.",
+      "who": "Healthy adults who pass the online screener.",
+      "how": "Take the online screener on the study page, or call 206-667-7091 or email FBS@fredhutch.org.",
+      "online": false,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://www.fredhutch.org/en/research/divisions/public-health-sciences-division/research/cancer-prevention/food-biomarker-study.html",
+      "click": [
+        "On-Line Screener"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "On-Line Screener (scroll down)",
+          "what": "The link for you. Answer a few questions to see if you qualify."
+        }
+      ],
+      "closed": true,
+      "note": "Recruitment is closed right now (the site says so).",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://redcap.fredhutch.org/surveys/?s=8DYX93KJ93HJFKE9",
+        "clicked": [
+          "On-Line Screener"
+        ],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:35:37.021Z"
+      }
+    },
+    {
+      "id": "nelson",
+      "name": "Nelson Recruiting",
+      "category": "Focus groups & market research",
+      "payLow": 600,
+      "payHigh": 600,
+      "unit": "for 2 full days",
+      "payText": "$600 for two full days in past downtown Seattle studies, plus travel money from farther counties.",
+      "who": "Seattle-area adults 18+. Presentations, questionnaires, and roundtable talks.",
+      "how": "Press Participate to register in their database. They invite you to paid focus groups that fit you.",
+      "online": false,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://nelsonrecruiting.com/join-a-focus-group/",
+      "click": [
+        "Participate"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Participate (top right)",
+          "what": "The button for you. Register so they can invite you to focus groups."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://nelsonrecruiting.com/register-for-a-focus-group/",
+        "clicked": [
+          "Participate"
+        ],
+        "fieldCount": 16,
+        "note": null,
+        "at": "2026-10-05T04:27:16.118Z"
+      }
+    },
+    {
+      "id": "fredhutchccehdonor",
+      "name": "Fred Hutch Apheresis Donor Program",
+      "category": "Medical & clinical studies",
+      "payLow": 300,
+      "payHigh": 800,
+      "unit": "per donation",
+      "payText": "Up to $300 for a regular (non-mobilized) donation, or up to $800 for a mobilized donation with growth-factor shots and two donation days.",
+      "who": "Healthy adults 18–70 who haven't given blood in the last 8 weeks.",
+      "how": "Read the screening form, fill out a donor profile online, and a coordinator will contact you to schedule.",
+      "online": false,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://www.fredhutch.org/en/research/divisions/clinical-research-division/research/cceh-donor-program.html",
+      "click": [
+        "Learn More"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Learn More (under Complete Your Donor Profile)",
+          "what": "The button for you. Fill in your donor profile, then wait for a call."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://redcap.fredhutch.org/surveys/?s=PRDHNHC448",
+        "clicked": [
+          "Learn More"
+        ],
+        "fieldCount": 14,
+        "note": null,
+        "at": "2026-10-05T04:27:16.231Z"
+      }
+    },
+    {
+      "id": "nih",
+      "name": "NIH Clinical Center",
+      "category": "Medical & clinical studies",
+      "payLow": 200,
+      "payHigh": 5000,
+      "unit": "per study",
+      "payText": "A few hundred dollars for short studies, thousands for longer ones.",
+      "who": "Healthy volunteers and patients. About 3,500 healthy volunteers a year.",
+      "how": "Search open studies or register as a healthy volunteer. Most studies are in Bethesda, MD.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://clinicalstudies.info.nih.gov",
+      "click": [
+        "Register as a Healthy Volunteer"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Register as a Healthy Volunteer (scroll down)",
+          "what": "The button for you if you're healthy. Sign up to hear about studies."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://clinicalstudies.info.nih.gov/",
+        "clicked": [
+          "Register as a Healthy Volunteer"
+        ],
+        "fieldCount": 5,
+        "note": null,
+        "at": "2026-10-05T04:27:24.004Z"
+      }
+    },
+    {
+      "id": "ctgov",
+      "name": "ClinicalTrials.gov",
+      "category": "Medical & clinical studies",
+      "payLow": 200,
+      "payHigh": 2000,
+      "unit": "per trial",
+      "payText": "Varies. Phase II–III trials often pay $200–$2,000 across visits.",
+      "who": "Depends on each trial. Over a thousand are listed in Seattle.",
+      "how": "Search by city and condition, then contact the study site.",
+      "online": false,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://clinicaltrials.gov/search?locStr=Seattle,%20WA&country=United%20States&state=Washington&city=Seattle&aggFilters=status:rec",
+      "click": [
+        "List of studies"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "List of studies",
+          "what": "Seattle recruiting studies are already shown. Click a study title, then scroll to its contacts."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://clinicaltrials.gov/search?locStr=Seattle,%20WA&country=United%20States&state=Washington&city=Seattle&aggFilters=status:rec&viewType=Card",
+        "clicked": [],
+        "fieldCount": 16,
+        "note": null,
+        "at": "2026-10-05T04:27:19.961Z"
+      }
+    },
+    {
+      "id": "arbolus",
+      "name": "Arbolus",
+      "category": "Expert calls",
+      "payLow": 200,
+      "payHigh": 500,
+      "unit": "per call",
+      "payText": "Arbolus says expert calls pay $200–$500. Surveys and recorded video answers also pay. Paid within 30 days by bank transfer, gift card, or charity donation.",
+      "who": "Industry professionals worldwide, including software users who can review tools.",
+      "how": "Sign up free on the Arbolus expert community and accept projects you like.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "pro",
+      "startUrl": "https://community.arbolus.com/signup/expert",
+      "click": [
+        "Create an account with email"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Continue with LinkedIn / Continue with Google",
+          "what": "The buttons for you. Pick one to make your expert account fast."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.linkedin.com/uas/login?session_redirect=%2Foauth%2Fv2%2Flogin-success%3Fapp_id%3D221238764%26auth_type%3DAC%26flow%3D%257B%2522creationTime%2522%253A1791174441266%252C%2522scope%2522%253A%2522openid%2Bprofile%2Bemail%2Br_basicprofile%2522%252C%2522appId%2522%253A221238764%252C%2522authorizationType%2522%253A%2522OAUTH2_AUTHORIZATION_CODE%2522%252C%2522redirectUri%2522%253A%2522https%253A%252F%252Fcommunity.arbolus.com%252Fapi%252Fv1%252Fauthentication%252Fexperts%252Flinkedin%253FinternalRedirect%253Dhttps%25253A%25252F%25252Fcommunity.arbolus.com%2522%252C%2522currentStage%2522%253A%2522LOGIN_SUCCESS%2522%252C%2522currentSubStage%2522%253A0%252C%2522authFlowName%2522%253A%2522generic-permission-list%2522%257D&fromSignIn=1&trk=oauth_3p_login&cancel_redirect=%2Foauth%2Fv2%2Flogin-cancel%3Fapp_id%3D221238764%26auth_type%3DAC%26flow%3D%257B%2522creationTime%2522%253A1791174441266%252C%2522scope%2522%253A%2522openid%2Bprofile%2Bemail%2Br_basicprofile%2522%252C%2522appId%2522%253A221238764%252C%2522authorizationType%2522%253A%2522OAUTH2_AUTHORIZATION_CODE%2522%252C%2522redirectUri%2522%253A%2522https%253A%252F%252Fcommunity.arbolus.com%252Fapi%252Fv1%252Fauthentication%252Fexperts%252Flinkedin%253FinternalRedirect%253Dhttps%25253A%25252F%25252Fcommunity.arbolus.com%2522%252C%2522currentStage%2522%253A%2522LOGIN_SUCCESS%2522%252C%2522currentSubStage%2522%253A0%252C%2522authFlowName%2522%253A%2522generic-permission-list%2522%257D",
+        "clicked": [
+          "Continue with LinkedIn"
+        ],
+        "fieldCount": 2,
+        "note": null,
+        "at": "2026-10-05T04:27:28.459Z"
+      }
+    },
+    {
+      "id": "projectanyc",
+      "name": "Project A (wearable tech study)",
+      "category": "AI data collection studies",
+      "payLow": 200,
+      "payHigh": 200,
+      "unit": "per session",
+      "payText": "$200 per completed session (about 3 hours), paid to a FocusGroup Wallet you can redeem for Visa, Amazon, Best Buy, and other gift cards.",
+      "who": "NYC-area adults 18–75 who are fluent in English and free on weekday business hours.",
+      "how": "Sign up on the site and book a session. You wear sensor wristbands and do guided hand and arm movements, sometimes in AR/VR.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://joinprojecta.com",
+      "click": [
+        "See if you qualify"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "See if you qualify (right)",
+          "what": "The button for you. Take the 5 to 10 minute survey, then book a session if you match."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://schlesinger.focusvision.com/survey/selfserve/5c0/240600#?",
+        "clicked": [
+          "See if you qualify"
+        ],
+        "fieldCount": 1,
+        "note": null,
+        "at": "2026-10-05T04:35:45.647Z"
+      }
+    },
+    {
+      "id": "adlerweiner",
+      "name": "Adler Weiner Research",
+      "category": "Focus groups & market research",
+      "payLow": 150,
+      "payHigh": 300,
+      "unit": "per study",
+      "payText": "Recent nationwide studies paid $150–$300. Paid by cash, check, gift card or prepaid debit card; you're told the amount before you agree.",
+      "who": "Any US resident can join; more in-person chances near LA, Orange County and Chicago.",
+      "how": "Register in their database, then answer screeners when invited.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://adlerweiner.com/participate-in-market-research",
+      "click": [
+        "CLICK TO REGISTER"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "CLICK TO REGISTER (middle of the page)",
+          "what": "There are two. Use the first for Chicago, the second for LA/Orange County or online nationwide."
+        }
+      ],
+      "note": "Pick your region (Chicago, LA/OC or National), then fill the form.",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://adlerweiner.com/participate-in-market-research",
+        "clicked": [
+          "CLICK TO REGISTER",
+          "SIGN UP",
+          "SIGN UP"
+        ],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:36:02.602Z"
+      }
+    },
+    {
+      "id": "zintro",
+      "name": "Zintro",
+      "category": "Expert calls",
+      "payLow": 150,
+      "payHigh": 300,
+      "unit": "per hour",
+      "payText": "Zintro says about 90% of its jobs pay $150–$300 an hour. Payouts arrive in about 3–10 business days by bank transfer, PayPal, Venmo, Zelle, Cash App, or gift card.",
+      "who": "Professionals with industry or subject-matter expertise.",
+      "how": "Apply on the expert sign-up page, answer screening questions for projects you want, and get paid after the call or survey.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "pro",
+      "startUrl": "https://www.zintro.com/for-experts",
+      "click": [
+        "Apply to Become an Expert"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Apply to Become an Expert (middle of the page)",
+          "what": "The button for you. Start your expert application."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://app.zintro.com/expertsignup",
+        "clicked": [
+          "Apply to Become an Expert"
+        ],
+        "fieldCount": 3,
+        "note": null,
+        "at": "2026-10-05T04:27:36.867Z"
+      }
+    },
+    {
+      "id": "thefocusroom",
+      "name": "The Focus Room",
+      "category": "Focus groups & market research",
+      "payLow": 150,
+      "payHigh": 200,
+      "unit": "per study",
+      "payText": "Current online focus groups pay $150; in-person groups in New York City pay $200.",
+      "who": "US adults; many groups are online nationwide.",
+      "how": "Join their database, then sign up for listed studies on their Active Studies page.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://focusroom.com/active-studies/",
+      "click": [],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "SIGN UP",
+          "what": "Pick a study you fit on this list and press the SIGN UP under it."
+        }
+      ],
+      "steps": [
+        "Join Today"
+      ],
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://focusroom.com/about-focus-groups/",
+        "clicked": [
+          "Join Today",
+          "Participate",
+          "Participate"
+        ],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:36:00.684Z"
+      }
+    },
+    {
+      "id": "opinionsforcash",
+      "name": "Opinions For Cash",
+      "category": "Focus groups & market research",
+      "payLow": 140,
+      "payHigh": 250,
+      "unit": "per study",
+      "payText": "Recent studies paid $140–$250, sent by e-gift card or check.",
+      "who": "US adults, and sometimes kids through their parents for product tests.",
+      "how": "Sign up as a participant on their site, then apply to studies on their Current Studies page.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://opinionsforcash.com/current-studies",
+      "click": [
+        "APPLY HERE"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "APPLY HERE",
+          "what": "Read the studies on this page and press APPLY HERE under one you fit."
+        }
+      ],
+      "steps": [
+        "a Participant",
+        "SIGN UP TO PARTICIPATE"
+      ],
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://opinionsforcash.com/current-sudies",
+        "clicked": [
+          "I’m a Participant"
+        ],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:36:24.210Z"
+      }
+    },
+    {
+      "id": "gtresearch",
+      "name": "GT Research",
+      "category": "Mock juries",
+      "payLow": 135,
+      "payHigh": 150,
+      "unit": "per session",
+      "payText": "Pays $135 per Zoom session, or $150 for hard-to-find demographic groups, soon after the session.",
+      "who": "US adults with a computer that can run Zoom who are not on a real jury in the next 30 days.",
+      "how": "Sign up free on the mock juror page and wait for a session invite.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.gt-research.com/mock-jurors",
+      "click": [
+        "Sign Up"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Sign Up (top right)",
+          "what": "The button for you. Make your mock juror account."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.gt-research.com/mock-jurors/sign-up",
+        "clicked": [
+          "Sign Up"
+        ],
+        "fieldCount": 23,
+        "note": null,
+        "at": "2026-10-05T04:27:51.813Z"
+      }
+    },
+    {
+      "id": "leresearch",
+      "name": "L&E Research (L&E Opinions)",
+      "category": "Focus groups & market research",
+      "payLow": 125,
+      "payHigh": 545,
+      "unit": "per study",
+      "payText": "Recent studies listed at $125–$545, most around $125–$200. They say they paid participants over $4.4 million last year.",
+      "who": "US adults; many online and phone studies are open nationwide.",
+      "how": "Join the L&E Opinions panel online or in the app, answer screeners for studies that fit you, and get paid after you take part.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.leopinions.com/",
+      "click": [
+        "SIGN UP"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "SIGN UP (top right)",
+          "what": "The button for you. Make your free L&E Opinions account."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://participant.facilitymanagerplus.com/ParticipantSignup.aspx",
+        "clicked": [
+          "SIGN UP"
+        ],
+        "fieldCount": 4,
+        "note": null,
+        "at": "2026-10-05T04:27:53.686Z"
+      }
+    },
+    {
+      "id": "nicholsresearch",
+      "name": "Nichols Research",
+      "category": "Focus groups & market research",
+      "payLow": 125,
+      "payHigh": 400,
+      "unit": "per study",
+      "payText": "Recent studies paid $125–$400. You get an honorarium for every study you complete.",
+      "who": "US adults; in-person studies are in Northern California, some are online nationwide.",
+      "how": "Fill out their registration form; they text, email or call when a study fits.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://nicholsresearch.com/registration-form/",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The registration form",
+          "what": "The page opens right on it. It has 19 short steps. Fill them in to join."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://nicholsresearch.com/registration-form/",
+        "clicked": [],
+        "fieldCount": 23,
+        "note": null,
+        "at": "2026-10-05T04:28:06.116Z"
+      }
+    },
+    {
+      "id": "recruitandfield",
+      "name": "Recruit & Field",
+      "category": "Focus groups & market research",
+      "payLow": 125,
+      "payHigh": 150,
+      "unit": "per study",
+      "payText": "Recent online focus groups paid $125–$150.",
+      "who": "US adults; recent studies were open nationwide.",
+      "how": "Register as a participant on their site, then answer screeners for studies you match.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.recruitandfield.com/register-as-a-participant",
+      "click": [
+        "REGISTER HERE"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "REGISTER HERE",
+          "what": "The button for you if you live in the US. Make your participant profile."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://myprofile.recruitandfield.com/signup",
+        "clicked": [
+          "REGISTER HERE"
+        ],
+        "fieldCount": 15,
+        "note": null,
+        "at": "2026-10-05T04:27:59.854Z"
+      }
+    },
+    {
+      "id": "rarepatientvoice",
+      "name": "Rare Patient Voice",
+      "category": "Focus groups & market research",
+      "payLow": 120,
+      "payHigh": 120,
+      "unit": "per hour",
+      "payText": "They say studies typically pay about $120 an hour. Over $18 million paid to patients and caregivers since 2013.",
+      "who": "Patients and family caregivers with many health conditions, not only rare diseases.",
+      "how": "Sign up as a patient or caregiver; you'll be invited to paid interviews and surveys that match your condition.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "patient",
+      "startUrl": "https://rarepatientvoice.com/patients/patient-and-caregiver-sign-up/",
+      "click": [
+        "Click Here to Sign Up"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Click Here to Sign Up!",
+          "what": "The button for you. Sign up as a patient or caregiver."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://panel.rarepatientvoice.com/newdesign/site/rarepatientvoice/panelchoosecountry.php?panelID=a612d4jbc&s1=rpvwebsite&_gl=1*d1h2ds*_ga*NDAyMzg2MTAyLjE3OTExNzQ0ODE.*_ga_6XDCCDG8FH*czE3OTExNzQ0ODAkbzEkZzAkdDE3OTExNzQ0ODAkajYwJGwwJGgw",
+        "clicked": [
+          "Click Here to Sign Up!\n(opens in new tab)"
+        ],
+        "fieldCount": 1,
+        "note": null,
+        "at": "2026-10-05T04:28:08.710Z"
+      }
+    },
+    {
+      "id": "focusinsite",
+      "name": "Focus Insite",
+      "category": "Focus groups & market research",
+      "payLow": 100,
+      "payHigh": 1500,
+      "unit": "per study",
+      "payText": "They say studies pay $100–$1,500; recent consumer studies were $100–$200. Paid by Tremendous e-gift card or Visa within 1–2 weeks.",
+      "who": "Anyone 18+ in the US: consumers, business and tech professionals, and patients.",
+      "how": "Create a profile (3–5 minutes) and you'll get emailed invites to studies you fit.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://cloud.focusinsite.com/join-panel",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "Email box + Submit Email",
+          "what": "The page opens on the sign-up. Type your email and press Submit Email to start your profile."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://cloud.focusinsite.com/join-panel",
+        "clicked": [],
+        "fieldCount": 1,
+        "note": null,
+        "at": "2026-10-05T04:28:09.616Z"
+      }
+    },
+    {
+      "id": "alphasights",
+      "name": "AlphaSights",
+      "category": "Expert calls",
+      "payLow": 100,
+      "payHigh": 1000,
+      "unit": "per hour",
+      "payText": "Usually $100–$300/hr, senior experts $300–$800+.",
+      "who": "Professionals and former executives.",
+      "how": "Fill out the expert form on the Experts page (aimed at people with 10+ years of experience), or reply when they reach out on LinkedIn.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "pro",
+      "startUrl": "https://www.alphasights.com/experts/",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The expert form (scroll down)",
+          "what": "Scroll down the Experts page to the form and fill in your details to join."
+        }
+      ],
+      "note": "Their site blocks automated browsers when testing. It usually works in the real window.",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://www.alphasights.com/experts/",
+        "clicked": [],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:35:58.207Z"
+      }
+    },
+    {
+      "id": "guidepoint",
+      "name": "Guidepoint",
+      "category": "Expert calls",
+      "payLow": 100,
+      "payHigh": 1000,
+      "unit": "per hour",
+      "payText": "Usually $100–$300/hr, senior experts $300–$800+.",
+      "who": "Professionals with industry experience.",
+      "how": "Fill out the advisor form on the Experts page. If a client project fits, Guidepoint invites you to join and finish verification.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "pro",
+      "startUrl": "https://www.guidepoint.com/experts/",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The form under \"Let us know you're interested.\" (scroll down)",
+          "what": "The one for you. Fill it in to tell Guidepoint about your background."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.guidepoint.com/experts/",
+        "clicked": [],
+        "fieldCount": 6,
+        "note": null,
+        "at": "2026-10-05T04:28:13.613Z"
+      }
+    },
+    {
+      "id": "coleman",
+      "name": "Coleman Research",
+      "category": "Expert calls",
+      "payLow": 100,
+      "payHigh": 1000,
+      "unit": "per hour",
+      "payText": "Usually $100–$300/hr, senior experts $300–$800+.",
+      "who": "Professionals with industry experience.",
+      "how": "There is no open online form. Email memberservices@colemanrg.com with your background, or reply when their team reaches out.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "pro",
+      "startUrl": "https://www.colemanrg.com/experts/",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "No join button on this page",
+          "what": "Email memberservices@colemanrg.com with your work background to ask to join."
+        }
+      ],
+      "note": "Coleman has no public expert sign-up form. Email or call from the Contact page.",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://www.colemanrg.com/experts/",
+        "clicked": [],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:36:11.764Z"
+      }
+    },
+    {
+      "id": "atheneum",
+      "name": "Atheneum",
+      "category": "Expert calls",
+      "payLow": 100,
+      "payHigh": 500,
+      "unit": "per hour",
+      "payText": "Starting offers usually run $100–$200 an hour below director level, $200–$350 for directors to VPs, and $350–$500+ for C-suite. Paid by PayPal or bank transfer, pro-rated by the minute.",
+      "who": "Working professionals and executives worldwide with industry know-how.",
+      "how": "Email expert.relations@atheneum.ai or register in the Atheneum Hub app. They contact you when a project fits.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "pro",
+      "startUrl": "https://www.atheneum.ai/network/",
+      "click": [
+        "REGISTER"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "REGISTER (left side)",
+          "what": "The button for you. It opens an email to their expert team. Add your background and send."
+        }
+      ],
+      "verified": {
+        "status": "opened",
+        "applyUrl": "",
+        "clicked": [
+          "REGISTER"
+        ],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:36:14.812Z"
+      }
+    },
+    {
+      "id": "dialectica",
+      "name": "Dialectica",
+      "category": "Expert calls",
+      "payLow": 100,
+      "payHigh": 350,
+      "unit": "per hour",
+      "payText": "Typical offers are $100–$200 an hour below director level and $200–$350 for directors and up. Paid by bank transfer, usually within about 10 business days.",
+      "who": "Professionals with first-hand industry experience, worldwide.",
+      "how": "Fill out the Become an Expert form. An associate reaches out when a client project matches your background.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "pro",
+      "startUrl": "https://www.dialectica.io/become-an-expert",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The join form",
+          "what": "Fill in your name, email, phone, LinkedIn and job title, then press Submit the form."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.dialectica.io/become-an-expert",
+        "clicked": [],
+        "fieldCount": 9,
+        "note": null,
+        "at": "2026-10-05T04:28:24.114Z"
+      }
+    },
+    {
+      "id": "newtonx",
+      "name": "NewtonX",
+      "category": "Expert calls",
+      "payLow": 100,
+      "payHigh": 350,
+      "unit": "per hour",
+      "payText": "Calls pay about $100–$200 an hour for director level and below, $200–$350 above that. Short 10–15 minute surveys often pay $40–$75. Paid by ACH, PayPal, or check.",
+      "who": "Verified B2B professionals and executives.",
+      "how": "Register on the NewtonX professionals portal. Most invites come by email or LinkedIn.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "pro",
+      "startUrl": "https://professionals.newtonx.com/experts/auth/registration",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The registration page",
+          "what": "This link goes straight to NewtonX's expert sign-up. Fill it in to make your profile."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://professionals.newtonx.com/experts/auth/registration",
+        "clicked": [],
+        "fieldCount": 4,
+        "note": null,
+        "at": "2026-10-05T04:28:25.423Z"
+      }
+    },
+    {
+      "id": "sago",
+      "name": "FocusGroup.com (Sago)",
+      "category": "Focus groups & market research",
+      "payLow": 100,
+      "payHigh": 300,
+      "unit": "per study",
+      "payText": "$100–$300+ per study.",
+      "who": "Consumers, business pros, healthcare pros, patients, and caregivers.",
+      "how": "Join the panel, keep your profile updated, get invited by email.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://focusgroup.com",
+      "click": [
+        "JOIN"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "JOIN (top)",
+          "what": "The button for you. Make a free account and fill in your profile."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.focusgroup.com/Account/Join",
+        "clicked": [
+          "JOIN"
+        ],
+        "fieldCount": 18,
+        "note": null,
+        "at": "2026-10-05T04:28:36.683Z"
+      }
+    },
+    {
+      "id": "sisinternational",
+      "name": "SIS International Research",
+      "category": "Focus groups & market research",
+      "payLow": 100,
+      "payHigh": 300,
+      "unit": "per study",
+      "payText": "Recent studies paid $100–$130; some past ones paid $250–$300.",
+      "who": "US adults.",
+      "how": "Register for focus groups through the sign-up link on their participant page.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.surveymonkey.com/r/S6B9SRZ",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The sign-up form",
+          "what": "The page opens right on it. Answer the questions to join their panel."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.surveymonkey.com/r/S6B9SRZ",
+        "clicked": [],
+        "fieldCount": 13,
+        "note": null,
+        "at": "2026-10-05T04:28:29.634Z"
+      }
+    },
+    {
+      "id": "insightspace",
+      "name": "Blink Recruiting (formerly Insight Space)",
+      "category": "Focus groups & market research",
+      "payLow": 100,
+      "payHigh": 200,
+      "unit": "per study",
+      "payText": "$100–$200 per study.",
+      "who": "Seattle-area adults. Focus groups, taste tests, usability tests, mock juries.",
+      "how": "Join their study participant list.",
+      "online": false,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://participate.blinkux.com/Portal/default",
+      "click": [
+        "REGISTER NOW"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "REGISTER NOW",
+          "what": "The button for you. Make your participant profile."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://participate.blinkux.com/Pages/survey8886.asp",
+        "clicked": [
+          "REGISTER NOW"
+        ],
+        "fieldCount": 7,
+        "note": null,
+        "at": "2026-10-05T04:28:37.475Z"
+      }
+    },
+    {
+      "id": "elliottbenson",
+      "name": "Elliott Benson Research",
+      "category": "Focus groups & market research",
+      "payLow": 100,
+      "payHigh": 200,
+      "unit": "per study",
+      "payText": "Recent nationwide online studies paid $100–$200.",
+      "who": "US consumers and business professionals.",
+      "how": "Fill out the respondent form (consumer or professional) on their site; they contact you when a study fits.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.elliottbenson.com/participate/",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "Tell Us About You form",
+          "what": "The page opens right on it. Fill it in so they can contact you."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.elliottbenson.com/participate/",
+        "clicked": [],
+        "fieldCount": 58,
+        "note": null,
+        "at": "2026-10-05T04:28:36.585Z"
+      }
+    },
+    {
+      "id": "fffocusgroup",
+      "name": "FF Focus Group (Focus Forward)",
+      "category": "Focus groups & market research",
+      "payLow": 100,
+      "payHigh": 175,
+      "unit": "per study",
+      "payText": "Recent online focus groups paid $100–$175. Online surveys pay points: 1,000 points = $1, cash out at $5 as a Visa e-card.",
+      "who": "US consumers, business professionals and others.",
+      "how": "Fill out a short profile; you'll get invites to focus groups, interviews, diaries and surveys.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://fffocusgroup.com/",
+      "click": [
+        "Join Now"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Join Now",
+          "what": "The button for you. Fill in a short profile."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://app.dscout.com/panels-ui/p/fffocusgroup",
+        "clicked": [
+          "Join Now"
+        ],
+        "fieldCount": 7,
+        "note": null,
+        "at": "2026-10-05T04:28:47.044Z"
+      }
+    },
+    {
+      "id": "opinionslink",
+      "name": "Opinions Link",
+      "category": "Focus groups & market research",
+      "payLow": 100,
+      "payHigh": 175,
+      "unit": "per study",
+      "payText": "Recent nationwide studies paid $100–$175, with an occasional specialist study up to $550.",
+      "who": "US adults; also recruits people with certain health conditions and professionals.",
+      "how": "Create a profile (about 10 minutes) on their portal and you'll get invites to studies you fit.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://portal.opinionslink.com/register",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The sign-up form",
+          "what": "The page opens right on it. Fill in your name, email and password, then press Sign Up."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://portal.opinionslink.com/register",
+        "clicked": [],
+        "fieldCount": 5,
+        "note": null,
+        "at": "2026-10-05T04:28:43.662Z"
+      }
+    },
+    {
+      "id": "atlassianresearchgroup",
+      "name": "Atlassian Research Group",
+      "category": "Big tech research",
+      "payLow": 100,
+      "payHigh": 140,
+      "unit": "per session",
+      "payText": "Paid sessions recently offered e-gift cards of about $100–$140 for a 1–1.25 hour video call. Some studies give swag or a charity donation instead.",
+      "who": "Anyone, anywhere. You don't need to use Jira or Confluence.",
+      "how": "Sign up and answer a few questions; Atlassian emails invites with the exact reward listed.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.atlassian.com/research-group",
+      "click": [
+        "Sign up"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Sign up (middle of the page)",
+          "what": "The button for you. Answer a few questions to join the research group."
+        }
+      ],
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://surveys.atlassian.com/jfe/form/SV_3ds1P82yKLrYz77?Source=WAC",
+        "clicked": [
+          "Sign up"
+        ],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:36:19.626Z"
+      }
+    },
+    {
+      "id": "google",
+      "name": "Google User Experience Research",
+      "category": "Big tech research",
+      "payLow": 100,
+      "payHigh": 125,
+      "unit": "per session",
+      "payText": "Thank-you gift, historically about $100–$125 for a 60–90 minute session. Surveys usually unpaid.",
+      "who": "Anyone 18+. You don't need to use Google products.",
+      "how": "Sign up, then answer a follow-up questionnaire if you're a fit.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://userresearch.google.com",
+      "click": [
+        "Sign up"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Sign up (top right)",
+          "what": "The button for you. Fill in a short form about yourself to join."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://research.rallyuxr.com/recruit/cm20o1w2l00001ald8mja8tb8/form/cmgs8dvtz07k8hvk70d85atrx/signup?ref=organic",
+        "clicked": [
+          "Sign up"
+        ],
+        "fieldCount": 4,
+        "note": null,
+        "at": "2026-10-05T04:28:50.910Z"
+      }
+    },
+    {
+      "id": "telusdigitalai",
+      "name": "TELUS Digital AI Community",
+      "category": "AI data collection studies",
+      "payLow": 100,
+      "payHigh": 115,
+      "unit": "per study",
+      "payText": "One-off in-person data collection studies pay a flat amount, like $100 for a 1-hour Seattle movement study ($115 for teens). Paid through Hyperwallet (PayPal, bank, or Venmo).",
+      "who": "Seattle studies take US residents 13+ (minors with a guardian).",
+      "how": "Make a free profile on the TELUS Digital AI board and apply only to the in-person data collection studies (look for 'Data Collection' or 'Movement' listings). Skip the remote rater roles, which are part-time jobs.",
+      "online": false,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://www.telusinternational.ai/opportunities",
+      "click": [
+        "On-site Data Collection listings"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "On-site Data Collection listings (in the job list)",
+          "what": "The ones for you. Look for \"On-site Data Collection\" or \"Movement Project\" and press View job."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.telusinternational.ai/opportunities",
+        "clicked": [],
+        "fieldCount": 1,
+        "note": null,
+        "at": "2026-10-05T04:28:53.923Z"
+      }
+    },
+    {
+      "id": "glg",
+      "name": "GLG",
+      "category": "Expert calls",
+      "payLow": 75,
+      "payHigh": 1000,
+      "unit": "per hour",
+      "payText": "Early career $75–$150/hr, senior $200–$300/hr, top experts $1,000+.",
+      "who": "Professionals with real industry knowledge.",
+      "how": "Click Become a GLG expert and create your profile. GLG contacts you when a customer's question matches your background, and you can say yes or no to each call.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "pro",
+      "startUrl": "https://glg.com/for-experts",
+      "click": [
+        "Become a GLG expert"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Become a GLG expert",
+          "what": "The button for you. Fill in a profile with your work history and the topics you know."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://membership.glgresearch.com/onboarding/?campaign=glgit-src-council-members&_gl=1*v0i63b*_gcl_au*MTQxNTM1MTgyLjE3OTExNzQ1Mjk.*_ga*NzczODg5MTk4LjE3OTExNzQ1Mjk.*_ga_7FTWEZ93WS*czE3OTExNzQ1MjgkbzEkZzAkdDE3OTExNzQ1MjgkajYwJGwwJGg0NzE3NDg3MjU.",
+        "clicked": [
+          "Become a GLG expert"
+        ],
+        "fieldCount": 8,
+        "note": null,
+        "at": "2026-10-05T04:29:00.243Z"
+      }
+    },
+    {
+      "id": "realpatients",
+      "name": "Real Patients (formerly Savvy Cooperative)",
+      "category": "Focus groups & market research",
+      "payLow": 75,
+      "payHigh": 500,
+      "unit": "per study",
+      "payText": "Patients earn $75–$500 per research study. The app also gives points for sharing experiences, redeemable for gift cards.",
+      "who": "People living with a health condition and caregivers.",
+      "how": "Create a profile to get matched to paid interviews, focus groups and studies.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "patient",
+      "startUrl": "https://share.realpatients.com/register/",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The sign-up form (email + Continue)",
+          "what": "The page opens right on it. Enter your email, press Continue, then click the link they email you."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://share.realpatients.com/register/",
+        "clicked": [],
+        "fieldCount": 1,
+        "note": null,
+        "at": "2026-10-05T04:28:54.328Z"
+      }
+    },
+    {
+      "id": "ascendancyresearch",
+      "name": "Ascendancy Research",
+      "category": "Focus groups & market research",
+      "payLow": 75,
+      "payHigh": 350,
+      "unit": "per study",
+      "payText": "Recent studies paid $75–$350, with a few up to $520. In-person sessions in the Twin Cities pay cash.",
+      "who": "US adults; most in-person work is in the Twin Cities, some studies are online nationwide.",
+      "how": "Sign up on their Participate page and watch their Facebook page for new screeners.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.ascendresearch.com/getpaid",
+      "click": [
+        "REGISTER NOW"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "REGISTER NOW (scroll down)",
+          "what": "The button for you. Fill in your profile to join their panel."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.research.net/r/AscendResearchIntakeSurvey",
+        "clicked": [
+          "REGISTER NOW"
+        ],
+        "fieldCount": 3,
+        "note": null,
+        "at": "2026-10-05T04:29:00.902Z"
+      }
+    },
+    {
+      "id": "advancedfocus",
+      "name": "Advanced Focus",
+      "category": "Focus groups & market research",
+      "payLow": 75,
+      "payHigh": 300,
+      "unit": "per study",
+      "payText": "They say studies pay $75–$300 or more, paid by digital reward card.",
+      "who": "US adults; household members can join separately.",
+      "how": "Join the database on their panel site and answer screeners. Online studies run on Zoom or similar.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://ow.advancedfocus.com/",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The sign-up form",
+          "what": "The page opens right on it. Fill it in and press Yes, I am up for paid surveys."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://ow.advancedfocus.com/",
+        "clicked": [],
+        "fieldCount": 14,
+        "note": null,
+        "at": "2026-10-05T04:28:58.190Z"
+      }
+    },
+    {
+      "id": "focuscope",
+      "name": "Focuscope",
+      "category": "Focus groups & market research",
+      "payLow": 75,
+      "payHigh": 250,
+      "unit": "per study",
+      "payText": "Site says focus groups pay \"$75, $100, or even $250\"; \"Average $150 incentive paid per study\"; health panel \"Compensation averages $100/hour\"; paid at the conclusion of the project.",
+      "who": "General public (plus health-condition panelists for medical studies) who complete a profile; Chicago- and LA-area facilities plus nationwide virtual projects",
+      "how": "Fill out the sign-up form with your demographic details to join Focuscope's respondent community; they contact you when you qualify for a project.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.focuscope.com/forms/joinDB2024.htm",
+      "click": [],
+      "formOnPage": true,
+      "evidenceUrl": "https://www.focuscope.com/join-our-community/",
+      "addedAt": "2026-10-05T05:20:59.626Z",
+      "discovered": true,
+      "guide": [],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.focuscope.com/forms/joinDB2024.htm",
+        "clicked": [],
+        "fieldCount": 54,
+        "note": null,
+        "at": "2026-10-05T05:21:02.980Z"
+      }
+    },
+    {
+      "id": "firstcourt",
+      "name": "First Court",
+      "category": "Mock juries",
+      "payLow": 75,
+      "payHigh": 175,
+      "unit": "per session",
+      "payText": "Online mock trials (2–3 hours) usually pay $75–$125 by PayPal or check. Full-day in-person trials pay about $175 cash plus meals.",
+      "who": "US citizens 18+ with no felony convictions who live in the county of a case.",
+      "how": "Apply on the PrivateJury site, do a phone screen, and get invited when a case comes up near you.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.privatejury.com/",
+      "click": [
+        "Click Here To Apply"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Click Here To Apply (middle of the page)",
+          "what": "The button for you. Fill in the online application."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://vulcan.privatejury.com/registration.php?caseid=2886&sittingid=2138&_tab_id=da7bb363d797f895e3b7a4d059c8f886&page=logistic",
+        "clicked": [
+          "Click Here To Apply",
+          "Apply Now!"
+        ],
+        "fieldCount": 11,
+        "note": null,
+        "at": "2026-10-05T04:29:12.639Z"
+      }
+    },
+    {
+      "id": "qualrecruit",
+      "name": "QualRecruit",
+      "category": "Focus groups & market research",
+      "payLow": 75,
+      "payHigh": 150,
+      "unit": "per hour",
+      "payText": "They say participants average $75–$150 an hour. Paid by Visa or store gift card, sometimes cash.",
+      "who": "Adults; they recruit for studies in many countries.",
+      "how": "Fill out a short form, get matched to studies, then join online focus groups, interviews or surveys.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.qualrecruit.com/become-a-participant",
+      "click": [
+        "Get started"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Get started (middle of the page)",
+          "what": "The button for you. Fill in the quick form to join their database."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.qualrecruit.com/join",
+        "clicked": [
+          "Get Started"
+        ],
+        "fieldCount": 1,
+        "note": null,
+        "at": "2026-10-05T04:29:06.669Z"
+      }
+    },
+    {
+      "id": "researchathubspot",
+      "name": "Research at HubSpot",
+      "category": "Big tech research",
+      "payLow": 75,
+      "payHigh": 75,
+      "unit": "per session",
+      "payText": "A recent 45–60 minute Zoom study paid a $75 gift card. Other studies give gift cards, swag, or a charity donation.",
+      "who": "Anyone, HubSpot customer or not. Most studies are online.",
+      "how": "Fill in the short form and your member profile, then answer study invites.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://offers.hubspot.com/researchathubspot",
+      "click": [
+        "Join now"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Join now (left)",
+          "what": "The button for you. Fill in the short form on the page and press Submit."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://offers.hubspot.com/researchathubspot#signuppanel",
+        "clicked": [
+          "Join now"
+        ],
+        "fieldCount": 7,
+        "note": null,
+        "at": "2026-10-05T04:29:14.951Z"
+      }
+    },
+    {
+      "id": "jurystudy",
+      "name": "JuryStudy",
+      "category": "Mock juries",
+      "payLow": 75,
+      "payHigh": 75,
+      "unit": "per session",
+      "payText": "Pays $75 by check for a 3-hour Zoom session.",
+      "who": "Adults 21+ with valid ID who live in the Tampa Bay area. Each person can take part once.",
+      "how": "Read the posted session (date, pay, who can join), then press Click Here to Begin to apply.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://jurystudy.com/",
+      "click": [
+        "Click Here to Begin"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Click Here to Begin → (scroll down)",
+          "what": "The button for you. Read the session details first, then apply."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://jurystudy.com/virtual-focus-group/",
+        "clicked": [
+          "Click Here to Begin →"
+        ],
+        "fieldCount": 19,
+        "note": null,
+        "at": "2026-10-05T04:29:13.435Z"
+      }
+    },
+    {
+      "id": "focusgroupsorg",
+      "name": "FocusGroups.org",
+      "category": "Focus groups & market research",
+      "payLow": 65,
+      "payHigh": 500,
+      "unit": "per study",
+      "payText": "Listings often $65–$175, some up to $500.",
+      "who": "Varies by listing. A Seattle-based board posting hundreds of studies a month.",
+      "how": "Browse listings and take each study's screener.",
+      "online": true,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://focusgroups.org",
+      "click": [
+        "Most Recent Focus Groups & Online Surveys"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Most Recent Focus Groups & Online Surveys (scroll down)",
+          "what": "Pick a study that fits you and press View Details to read it and apply."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://app.focusgroups.org/sign-up",
+        "clicked": [
+          "Most Recent Focus Groups & Online Surveys",
+          "SIGN UP"
+        ],
+        "fieldCount": 2,
+        "note": null,
+        "at": "2026-10-05T04:29:33.017Z"
+      }
+    },
+    {
+      "id": "sprungstudios",
+      "name": "Sprung Studios Playtests",
+      "category": "App & website testing",
+      "payLow": 60,
+      "payHigh": 325,
+      "unit": "per study",
+      "payText": "Up to $60 for a one-hour in-person session and up to $325 for longer take-home studies. Paid in cash.",
+      "who": "Adults 18+ in North America who don't work in the games industry.",
+      "how": "Fill in the sign-up form and gaming habits survey, then answer email invites. People outside Vancouver can join remote playtests.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.sprungstudios.com/playtest-signup/",
+      "click": [
+        "APPLY NOW"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "APPLY NOW",
+          "what": "The button for you. Opens the playtest sign-up."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.sprungstudios.com/playtest-signup/#gametestingsignup",
+        "clicked": [
+          "APPLY NOW"
+        ],
+        "fieldCount": 6,
+        "note": null,
+        "at": "2026-10-05T04:29:28.115Z"
+      }
+    },
+    {
+      "id": "sermo",
+      "name": "Sermo",
+      "category": "Healthcare professional panels",
+      "payLow": 60,
+      "payHigh": 300,
+      "unit": "per hour",
+      "payText": "Physician surveys work out to roughly $60–$300 an hour.",
+      "who": "Verified healthcare professionals.",
+      "how": "Verify your license and take surveys.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "healthcare",
+      "startUrl": "https://www.sermo.com",
+      "click": [
+        "Join Sermo free"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Join Sermo free (left side)",
+          "what": "The button for you. Make your account, then verify you are a licensed healthcare pro."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://app.sermo.com/register/start?utm_medium=direct&utm_source=direct&utm_campaign=page&utm_term=article-header-join-sermo-free&utm_content=homepage",
+        "clicked": [
+          "Join Sermo free"
+        ],
+        "fieldCount": 6,
+        "note": null,
+        "at": "2026-10-05T04:29:23.213Z"
+      }
+    },
+    {
+      "id": "m3",
+      "name": "M3 Global Research",
+      "category": "Healthcare professional panels",
+      "payLow": 60,
+      "payHigh": 300,
+      "unit": "per hour",
+      "payText": "Roughly $60–$300 an hour on physician studies.",
+      "who": "Verified healthcare professionals.",
+      "how": "Join the panel and get study invites.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "healthcare",
+      "startUrl": "https://www.m3globalresearch.com",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The sign-up form (right side)",
+          "what": "The page opens right on it. Fill in step 1, press Next, and finish all 4 steps."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.m3globalresearch.com/",
+        "clicked": [],
+        "fieldCount": 9,
+        "note": null,
+        "at": "2026-10-05T04:29:29.089Z"
+      }
+    },
+    {
+      "id": "zoomrx",
+      "name": "ZoomRx",
+      "category": "Healthcare professional panels",
+      "payLow": 60,
+      "payHigh": 300,
+      "unit": "per hour",
+      "payText": "Roughly $60–$300 an hour, paid fast by Zelle, PayPal, or ACH.",
+      "who": "Healthcare professionals.",
+      "how": "Click Join ZoomRx on the Paid Surveys page, create your profile, and take the surveys you are matched to.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": "healthcare",
+      "startUrl": "https://zoomrx.com/paid-surveys",
+      "click": [
+        "JOIN ZOOMRX"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "JOIN ZOOMRX (middle of the page)",
+          "what": "The button for you. Make your profile to get matched to surveys."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://app.zoomrx.com/#/user/signup?utm_source=website",
+        "clicked": [
+          "JOIN ZOOMRX"
+        ],
+        "fieldCount": 2,
+        "note": null,
+        "at": "2026-10-05T04:29:38.559Z"
+      }
+    },
+    {
+      "id": "marketdecisionsresearch",
+      "name": "Market Decisions Research",
+      "category": "Focus groups & market research",
+      "payLow": 60,
+      "payHigh": 150,
+      "unit": "per study",
+      "payText": "They say incentives run $60–$150 depending on the topic, for groups of 1½–2 hours.",
+      "who": "Adults; most in-person groups are in Maine, some online.",
+      "how": "Fill out the short survey on their participate page to join the participant list.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://marketdecisions.com/participate-in-research/",
+      "click": [
+        "SIGN-UP TO PARTICIPATE"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "SIGN-UP TO PARTICIPATE! (scroll down)",
+          "what": "The button for you. Fill in the short survey to join their list."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://us1se.voxco.com/S2/rs?vx-skey=50b6d89b-1e2a-4b5a-865e-f9341d24981d",
+        "clicked": [
+          "SIGN-UP TO PARTICIPATE!"
+        ],
+        "fieldCount": 8,
+        "note": null,
+        "at": "2026-10-05T04:29:37.637Z"
+      }
+    },
+    {
+      "id": "sensoryspectrum",
+      "name": "Sensory Spectrum Consumer Panel",
+      "category": "Focus groups & market research",
+      "payLow": 60,
+      "payHigh": 60,
+      "unit": "per hour",
+      "payText": "They say studies pay $60 an hour or more, sent by email within 24 hours.",
+      "who": "Adults who can travel to their New Jersey or Chicago-area facility.",
+      "how": "Fill out the 5-minute application; they invite you to taste, smell and product tests you qualify for.",
+      "online": false,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://spectrumdiscoverycenter.com/",
+      "click": [
+        "APPLY NOW"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "APPLY NOW",
+          "what": "The button for you. The application takes under 5 minutes."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://sensoryspectrum.compusensecloud.com/k9r/Appform",
+        "clicked": [
+          "APPLY NOW"
+        ],
+        "fieldCount": 20,
+        "note": null,
+        "at": "2026-10-05T04:29:39.541Z"
+      }
+    },
+    {
+      "id": "findfocusgroups",
+      "name": "FindFocusGroups.com",
+      "category": "Focus groups & market research",
+      "payLow": 50,
+      "payHigh": 450,
+      "unit": "per study",
+      "payText": "Listings usually pay $100–$450; they say remote studies average $50–$200 for 60–90 minutes. Each company pays you directly.",
+      "who": "Anyone; each listing has its own requirements.",
+      "how": "Browse listings or sign up for free email alerts, then apply on the recruiter's site.",
+      "online": true,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://www.findfocusgroups.com/",
+      "click": [
+        "Sign up for free"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "See newest focus groups",
+          "what": "Browse the list, open a study that fits you, and follow its apply steps."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.findfocusgroups.com/alerts",
+        "clicked": [
+          "Sign up for free"
+        ],
+        "fieldCount": 2,
+        "note": null,
+        "at": "2026-10-05T04:31:54.600Z"
+      }
+    },
+    {
+      "id": "probemarketresearch",
+      "name": "Probe Market Research",
+      "category": "Focus groups & market research",
+      "payLow": 50,
+      "payHigh": 400,
+      "unit": "per study",
+      "payText": "Site says: \"Compensation varies by study and may range from $50 to $400+, with some specialized studies paying significantly more.\" No fee to join.",
+      "who": "General public nationwide, matched to studies by profile and location; explicitly lists Seattle, Portland, San Francisco, Los Angeles, Chicago, Dallas, and New York among its 25 metro areas",
+      "how": "Click Register on the sign-up page and complete the embedded registration form to join Probe's participant database.",
+      "online": true,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://www.probemarket.com/pages/sign-up",
+      "click": [
+        "Register"
+      ],
+      "formOnPage": true,
+      "evidenceUrl": "https://www.probemarket.com/pages/sign-up",
+      "addedAt": "2026-10-05T05:20:59.626Z",
+      "discovered": true,
+      "guide": [
+        {
+          "button": "Register",
+          "what": "The button for you."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.probemarket.com/pages/sign-up",
+        "clicked": [],
+        "fieldCount": 152,
+        "note": null,
+        "at": "2026-10-05T05:21:05.954Z"
+      }
+    },
+    {
+      "id": "respondent",
+      "name": "Respondent",
+      "category": "App & website testing",
+      "payLow": 50,
+      "payHigh": 350,
+      "unit": "per session",
+      "payText": "$50–$250 per session (about $95 on average). Professional studies up to about $350.",
+      "who": "Strongest for people with a specific job title or industry.",
+      "how": "Fill in your job details, apply to studies, get paid by PayPal.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.respondent.io/become-a-participant",
+      "click": [
+        "Sign up free"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Sign up free (left side of the first screen)",
+          "what": "The button for you. Makes your participant account."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://app.respondent.io/next/participants/signup",
+        "clicked": [
+          "Sign up free"
+        ],
+        "fieldCount": 4,
+        "note": null,
+        "at": "2026-10-05T04:29:46.426Z"
+      }
+    },
+    {
+      "id": "findpaidfocusgroup",
+      "name": "FindPaidFocusGroup.com",
+      "category": "Focus groups & market research",
+      "payLow": 50,
+      "payHigh": 300,
+      "unit": "per study",
+      "payText": "Most listings pay $50–$300 per session, with some specialist studies up to $975. Each company pays you directly.",
+      "who": "Anyone; each listing has its own requirements.",
+      "how": "Browse listings by city or nationwide, sign in with Google and apply.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://www.findpaidfocusgroup.com/",
+      "click": [
+        "Find studies"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Find studies",
+          "what": "Pick a topic and your state, press Find studies, then open a study and apply."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.findpaidfocusgroup.com/paid-focus-groups-near-me/?title=&state=",
+        "clicked": [
+          "Find studies"
+        ],
+        "fieldCount": 2,
+        "note": null,
+        "at": "2026-10-05T04:29:49.140Z"
+      }
+    },
+    {
+      "id": "dscout",
+      "name": "dscout",
+      "category": "App & website testing",
+      "payLow": 50,
+      "payHigh": 200,
+      "unit": "per mission",
+      "payText": "Diary missions usually $50–$200. Hard-to-find professionals can get $150–$600 for 15–30 minutes.",
+      "who": "Anyone with a smartphone who can record short photo and video entries.",
+      "how": "Download the app, apply to missions, paid by PayPal after approval.",
+      "online": true,
+      "inPerson": false,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://dscout.com/participate-in-research-studies",
+      "click": [
+        "Sign up today"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Sign up today!",
+          "what": "The button for you. Starts your sign-up as a participant."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://app.dscout.com/scouts/sign_up?_ga=2.79623383.25325793.1791174587-576352721.1791174587",
+        "clicked": [
+          "Sign up today!"
+        ],
+        "fieldCount": 4,
+        "note": null,
+        "at": "2026-10-05T04:30:02.222Z"
+      }
+    },
+    {
+      "id": "cypherresearch",
+      "name": "Cypher Research",
+      "category": "Focus groups & market research",
+      "payLow": 50,
+      "payHigh": 150,
+      "unit": "per study",
+      "payText": "Most studies pay $50–$150; two-hour focus groups usually $100–$150. Paid by check, gift card or digital payment, often the same day.",
+      "who": "US adults; in-person studies are near Detroit, some studies are online nationwide.",
+      "how": "Sign up (about 5 minutes) and pick the studies you want; they reach out when your profile matches.",
+      "online": true,
+      "inPerson": true,
+      "seattle": false,
+      "req": null,
+      "startUrl": "https://rpm.cypherresearch.com/respondent_sign_up.php",
+      "click": [],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "The sign-up form",
+          "what": "The page opens right on it. Fill in your info and press Next-> to keep going."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://rpm.cypherresearch.com/respondent_sign_up.php",
+        "clicked": [],
+        "fieldCount": 13,
+        "note": null,
+        "at": "2026-10-05T04:29:52.228Z"
+      }
+    },
+    {
+      "id": "bloodworksresearchdonor",
+      "name": "Bloodworks Northwest Research Donor Program",
+      "category": "Medical & clinical studies",
+      "payLow": 50,
+      "payHigh": 150,
+      "unit": "per donation",
+      "payText": "$50 for a blood sample, $100 for a whole blood unit, or up to $150 for a unit of platelets. White blood cell donations are also paid.",
+      "who": "Healthy adults 18+ with good veins. You can join even if you can't give to the regular blood supply.",
+      "how": "Fill out the My Donation form on the research page. Bloodworks Bio will contact you to pick a donation type.",
+      "online": false,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://bloodworksnw.org/donate/research",
+      "click": [
+        "MY DONATION FORM"
+      ],
+      "formOnPage": true,
+      "guide": [
+        {
+          "button": "My Donation Form (scroll down)",
+          "what": "The link for you. Fill it in and Bloodworks Bio will help pick your donation type."
+        }
+      ],
+      "note": "The donation form is lower on the page.",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://bloodworksnw.org/donate/research/form",
+        "clicked": [
+          "My Donation Form"
+        ],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:36:30.234Z"
+      }
+    },
+    {
+      "id": "fieldwork",
+      "name": "Fieldwork",
+      "category": "Focus groups & market research",
+      "payLow": 50,
+      "payHigh": 100,
+      "unit": "per study",
+      "payText": "$50–$100 per study.",
+      "who": "Adults in major US cities, plus online.",
+      "how": "Join the database and get called for studies.",
+      "online": true,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://www.fieldwork.com/join/",
+      "click": [
+        "Sign Up"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "Sign Up (top right)",
+          "what": "The button for you. Join their database so they can call you for studies."
+        }
+      ],
+      "verified": {
+        "status": "ready",
+        "applyUrl": "https://www.fieldwork.com/join/",
+        "clicked": [
+          "Sign Up\nOpens a new window"
+        ],
+        "fieldCount": 5,
+        "note": null,
+        "at": "2026-10-05T04:29:59.339Z"
+      }
+    },
+    {
+      "id": "bungieuserresearch",
+      "name": "Bungie User Research",
+      "category": "App & website testing",
+      "payLow": 50,
+      "payHigh": 50,
+      "unit": "per hour",
+      "payText": "In-person playtests in Bellevue pay about $50 an hour in gift cards, plus a small travel fee depending on distance. A 30-day remote Marathon study paid a $500 thank-you.",
+      "who": "Players with a Bungie.net account who opt in to research emails.",
+      "how": "Turn on research invites in your Bungie.net account email settings (or the user research sign-up page), then answer invites for playtests, interviews, and surveys.",
+      "online": true,
+      "inPerson": true,
+      "seattle": true,
+      "req": null,
+      "startUrl": "https://www.bungie.net/7/en/UserResearch",
+      "click": [
+        "SIGN IN"
+      ],
+      "formOnPage": false,
+      "guide": [
+        {
+          "button": "SIGN IN (top right)",
+          "what": "Sign in with PlayStation, Steam, Xbox, Epic or Twitch, then finish the research sign-up here."
+        }
+      ],
+      "note": "You need a free Bungie account: sign in there, then fill the research form.",
+      "verified": {
+        "status": "opened",
+        "applyUrl": "https://www.bungie.net/7/en/UserResearch/UserResearch",
+        "clicked": [],
+        "fieldCount": 0,
+        "note": null,
+        "at": "2026-10-05T04:36:26.766Z"
+      }
+    }
+  ]
+}

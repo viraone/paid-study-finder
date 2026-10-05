@@ -1,0 +1,14 @@
+{
+  "name": "paid-study-autopilot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Opens each paid gig ($50+ minimum) already clicked through and pre-filled. You only press submit.",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node build-db.js",
+    "verify": "node verify.js"
+  },
+  "dependencies": {
+    "playwright-core": "^1.49.0"
+  }
+}

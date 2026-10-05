@@ -1,0 +1,44 @@
+[
+  {
+    "id": "focuscope",
+    "name": "Focuscope",
+    "category": "Focus groups & market research",
+    "payLow": 75,
+    "payHigh": 250,
+    "unit": "per study",
+    "payText": "Site says focus groups pay \"$75, $100, or even $250\"; \"Average $150 incentive paid per study\"; health panel \"Compensation averages $100/hour\"; paid at the conclusion of the project.",
+    "who": "General public (plus health-condition panelists for medical studies) who complete a profile; Chicago- and LA-area facilities plus nationwide virtual projects",
+    "how": "Fill out the sign-up form with your demographic details to join Focuscope's respondent community; they contact you when you qualify for a project.",
+    "online": true,
+    "inPerson": true,
+    "seattle": false,
+    "req": null,
+    "startUrl": "https://www.focuscope.com/forms/joinDB2024.htm",
+    "click": [],
+    "formOnPage": true,
+    "evidenceUrl": "https://www.focuscope.com/join-our-community/",
+    "addedAt": "2026-10-05T05:20:59.626Z"
+  },
+  {
+    "id": "probemarketresearch",
+    "name": "Probe Market Research",
+    "category": "Focus groups & market research",
+    "payLow": 50,
+    "payHigh": 400,
+    "unit": "per study",
+    "payText": "Site says: \"Compensation varies by study and may range from $50 to $400+, with some specialized studies paying significantly more.\" No fee to join.",
+    "who": "General public nationwide, matched to studies by profile and location; explicitly lists Seattle, Portland, San Francisco, Los Angeles, Chicago, Dallas, and New York among its 25 metro areas",
+    "how": "Click Register on the sign-up page and complete the embedded registration form to join Probe's participant database.",
+    "online": true,
+    "inPerson": true,
+    "seattle": true,
+    "req": null,
+    "startUrl": "https://www.probemarket.com/pages/sign-up",
+    "click": [
+      "Register"
+    ],
+    "formOnPage": true,
+    "evidenceUrl": "https://www.probemarket.com/pages/sign-up",
+    "addedAt": "2026-10-05T05:20:59.626Z"
+  }
+]

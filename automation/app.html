@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paid Study Autopilot</title>
+<style>
+:root{
+  --bg:#F4F6F8;--surface:#FFFFFF;--surface2:#FAFBFC;--ink:#14181F;--muted:#57606B;--body:#434C57;
+  --line:#E3E7EC;--line2:#CBD2DA;--accent:#1F3FD1;--accentInk:#FFFFFF;--soft:#EBEFFC;
+  --pay:#0A7A4A;--paySoft:#E6F4EC;--warn:#A8510A;--warnSoft:#FDF1E6;
+  --font:ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0F1318;--surface:#171C23;--surface2:#1C222A;--ink:#EEF1F5;--muted:#A3ADB9;--body:#C4CCD6;
+    --line:#2A313B;--line2:#3A4350;--accent:#8EA2FF;--accentInk:#0F1318;--soft:#1E2640;
+    --pay:#5FD49A;--paySoft:#15301F;--warn:#F2A35E;--warnSoft:#33240F;
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px 80px}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+header{padding:32px 0 8px}
+h1{margin:0;font-size:clamp(1.7rem,4vw,2.4rem);letter-spacing:-.02em;line-height:1.1}
+.lead{margin:8px 0 12px;color:var(--body);max-width:60ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 20px;border-radius:12px;border:0;background:var(--accent);color:var(--accentInk);font-weight:600}
+.btn:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.btn.big{min-height:56px;padding:0 28px;font-size:18px}
+.btn.ghost{background:transparent;border:1.5px solid var(--line2);color:var(--ink)}
+.btn.small{min-height:38px;padding:0 14px;font-size:14px;border-radius:10px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin-top:18px}
+.panel h2{margin:0 0 4px;font-size:1.05rem}
+.panel p{margin:0 0 12px;color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px 14px}
+label.f{display:block;font-size:13px;font-weight:600;color:var(--body)}
+label.f input,label.f select{display:block;width:100%;margin-top:4px;min-height:42px;padding:0 10px;border:1px solid var(--line2);border-radius:10px;background:var(--surface2)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.status{margin-top:18px;padding:14px 18px;border-radius:14px;background:var(--soft);display:none}
+.status.on{display:block}
+.status b{font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px;align-items:center}
+.chip{min-height:38px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line2);background:transparent;font-weight:600;font-size:14px}
+.chip[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.chips select{min-height:38px;padding:0 10px;border:1.5px solid var(--line2);border-radius:10px;background:var(--surface)}
+.spacer{flex:1}
+.list{display:grid;gap:12px;margin-top:14px}
+.card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 18px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.card.done{opacity:.55}
+.card h3{margin:0;font-size:1.1rem;line-height:1.25}
+.cat{font-size:13px;color:var(--muted)}
+.pay{text-align:right}
+.pay .big{font-size:1.4rem;font-weight:700;color:var(--pay);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pay .unit{font-size:12px;color:var(--muted)}
+.who{grid-column:1/-1;margin:2px 0 0;font-size:14px;color:var(--body)}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.badge{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--surface2);border:1px solid var(--line);color:var(--body)}
+.badge.ok{background:var(--paySoft);border-color:transparent;color:var(--pay)}
+.badge.warn{background:var(--warnSoft);border-color:transparent;color:var(--warn)}
+.acts{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px;margin-top:8px;align-items:center}
+.acts a{font-size:13px;color:var(--muted)}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+.note{margin-top:28px;font-size:13px;color:var(--muted)}
+@media (max-width:560px){.card{grid-template-columns:1fr}.pay{text-align:left}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Paid Study Autopilot</h1>
+    <p class="lead" id="lead">Every gig that pays at least $50. Press Apply and the robot opens the site, clicks through to the sign-up, and fills in your details. You check it and press Submit.</p>
+  </header>
+
+  <section class="panel" id="profilePanel">
+    <h2 id="profileTitle">Your details (one time)</h2>
+    <p>Saved only on this computer in <code>automation/profile.json</code>. The robot types these into sign-up forms. It never types passwords and never presses Submit.</p>
+    <form id="profileForm">
+      <div class="grid">
+        <label class="f">First name<input name="firstName" autocomplete="given-name"></label>
+        <label class="f">Last name<input name="lastName" autocomplete="family-name"></label>
+        <label class="f">Email<input name="email" type="email" autocomplete="email"></label>
+        <label class="f">Phone<input name="phone" type="tel" autocomplete="tel"></label>
+        <label class="f">City<input name="city"></label>
+        <label class="f">State (2 letters)<input name="state" maxlength="2" placeholder="WA"></label>
+        <label class="f">Zip<input name="zip" inputmode="numeric"></label>
+        <label class="f">Birthday<input name="birthdate" type="date"></label>
+        <label class="f">Gender<select name="gender"><option value="">Skip</option><option>Female</option><option>Male</option><option>Non-binary</option></select></label>
+        <label class="f">Employer<input name="employer"></label>
+        <label class="f">Job title<input name="jobTitle"></label>
+        <label class="f">LinkedIn URL<input name="linkedin"></label>
+        <label class="f">Cookie pop-ups<select name="cookies"><option value="reject">Reject when possible</option><option value="accept">Accept</option><option value="leave">Leave alone</option></select></label>
+      </div>
+      <div class="row" style="margin-top:14px"><button class="btn" type="submit">Save details</button><span id="saved" class="cat"></span></div>
+    </form>
+  </section>
+
+  <div class="status" id="status" role="status" aria-live="polite"></div>
+
+  <div class="chips" id="chips">
+    <button class="chip" data-f="all" aria-pressed="true">All</button>
+    <button class="chip" data-f="online" aria-pressed="false">Online</button>
+    <button class="chip" data-f="inPerson" aria-pressed="false">In person</button>
+    <button class="chip" data-f="seattle" aria-pressed="false">Seattle area</button>
+    <button class="chip" data-f="open" aria-pressed="false">Anyone can join</button>
+    <select id="cat" aria-label="Category"><option value="">All categories</option></select>
+    <select id="sort" aria-label="Sort"><option value="low">Highest minimum pay</option><option value="high">Highest top pay</option><option value="ready">Fully automatic first</option></select>
+    <span class="spacer"></span>
+    <label class="cat"><input type="checkbox" id="hideDone" checked> Hide finished</label>
+  </div>
+
+  <div class="row" style="margin-top:16px">
+    <button class="btn big" id="startAll">Start applying</button>
+    <button class="btn ghost" id="stopAll" hidden>Stop the queue</button>
+    <span class="cat" id="count"></span>
+  </div>
+
+  <div class="list" id="list"></div>
+  <p class="note">Real research never charges you to join. If a site asks for a fee, close it. Pay shown is each source's own range; confirm on the site. Applications are submitted by you, so only answer screeners honestly.</p>
+</div>
+
+<script>
+(function(){
+"use strict";
+var gigs = [], lastSig = "", firstLoad = true, filter = "all", state = { cat:"", sort:"low", hideDone:true }, busy = false, hasProfile = false;
+var $ = function(id){ return document.getElementById(id); };
+function money(n){ return "$" + Number(n).toLocaleString("en-US"); }
+function el(tag, cls, text){ var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+function api(path, body){
+  return fetch(path, body === undefined ? {} : { method:"POST", headers:{"content-type":"application/json"}, body:JSON.stringify(body) }).then(function(r){ return r.json(); });
+}
+
+function visible(){
+  var list = gigs.filter(function(g){
+    if (g.closed) return false;
+    if (state.hideDone && g.done) return false;
+    if (filter === "online" && !g.online) return false;
+    if (filter === "inPerson" && !g.inPerson) return false;
+    if (filter === "seattle" && !g.seattle) return false;
+    if (filter === "open" && g.req) return false;
+    if (state.cat && g.category !== state.cat) return false;
+    return true;
+  });
+  var auto = function(g){ return g.verified && g.verified.status === "ready" ? 0 : 1; };
+  list.sort(function(a, b){
+    if (state.sort === "high") return b.payHigh - a.payHigh || b.payLow - a.payLow;
+    if (state.sort === "ready") return auto(a) - auto(b) || b.payLow - a.payLow;
+    return b.payLow - a.payLow || b.payHigh - a.payHigh;
+  });
+  return list;
+}
+
+var REQ = { healthcare:"Healthcare pros only", pro:"Professionals only", student:"Students only", patient:"Patients & caregivers" };
+
+function render(){
+  var list = visible(), box = $("list");
+  box.textContent = "";
+  var open = gigs.filter(function(g){ return !g.done && !g.closed; }).length;
+  $("count").textContent = list.length + " shown, " + open + " not yet applied";
+  $("startAll").textContent = list.length ? "Start applying (" + list.length + " gigs)" : "Nothing to apply to";
+  $("startAll").disabled = !list.length || busy;
+  if (!list.length) box.appendChild(el("div", "empty", "No gigs match these filters."));
+  list.forEach(function(g, i){
+    var c = el("article", "card" + (g.done ? " done" : ""));
+    var left = el("div");
+    left.appendChild(el("h3", "", g.name));
+    left.appendChild(el("div", "cat", g.category));
+    var badges = el("div", "badges");
+    var v = g.verified;
+    if (g.discovered && g.addedAt && Date.now() - Date.parse(g.addedAt) < 14 * 864e5) badges.appendChild(el("span", "badge ok", "New"));
+    if (v && v.status === "ready") badges.appendChild(el("span", "badge ok", "Auto-ready"));
+    else if (v && v.status === "opened") badges.appendChild(el("span", "badge warn", "One manual click"));
+    else if (v && v.status === "error") badges.appendChild(el("span", "badge warn", "Link failed last check"));
+    if (g.online) badges.appendChild(el("span", "badge", "Online"));
+    if (g.inPerson) badges.appendChild(el("span", "badge", "In person"));
+    if (g.seattle) badges.appendChild(el("span", "badge", "Seattle area"));
+    if (g.req) badges.appendChild(el("span", "badge warn", REQ[g.req] || g.req));
+    if (g.done) badges.appendChild(el("span", "badge ok", g.done.status === "applied" ? "Applied" : "Skipped"));
+    left.appendChild(badges);
+    var pay = el("div", "pay");
+    pay.appendChild(el("div", "big", g.payLow === g.payHigh ? money(g.payLow) : money(g.payLow) + "–" + money(g.payHigh)));
+    pay.appendChild(el("div", "unit", g.unit));
+    c.appendChild(left); c.appendChild(pay);
+    c.appendChild(el("p", "who", g.who));
+    var acts = el("div", "acts");
+    var apply = el("button", "btn small", g.done ? "Open again" : "Apply");
+    apply.addEventListener("click", function(){ start(list.slice(i).map(function(x){ return x.id; })); });
+    acts.appendChild(apply);
+    var mark = el("button", "btn small ghost", g.done ? "Undo" : "Mark applied");
+    mark.addEventListener("click", function(){ api("/api/mark", { id:g.id, status: g.done ? null : "applied" }).then(load); });
+    acts.appendChild(mark);
+    var a = el("a", "", "Open the plain site");
+    a.href = g.startUrl; a.target = "_blank"; a.rel = "noopener noreferrer";
+    acts.appendChild(a);
+    c.appendChild(acts);
+    box.appendChild(c);
+  });
+}
+
+function start(ids){
+  busy = true; render();
+  api("/api/start", { ids: ids }).then(function(){ setTimeout(function(){ busy = false; render(); poll(); }, 800); });
+}
+
+function load(){
+  return api("/api/gigs").then(function(d){
+    var sig = JSON.stringify(d);
+    hasProfile = d.hasProfile;
+    if (firstLoad) { $("profilePanel").style.display = hasProfile ? "none" : ""; firstLoad = false; }
+    if (sig === lastSig) return;
+    lastSig = sig;
+    gigs = d.gigs;
+    var cats = {}; gigs.forEach(function(g){ cats[g.category] = 1; });
+    var sel = $("cat"), cur = sel.value;
+    if (sel.options.length === 1) Object.keys(cats).sort().forEach(function(c){ var o = el("option", "", c); o.value = c; sel.appendChild(o); });
+    sel.value = cur;
+    render();
+  });
+}
+
+function poll(){
+  api("/api/status").then(function(s){
+    var st = $("status");
+    if (s.current) {
+      st.className = "status on";
+      st.textContent = "";
+      var b = el("b", "", "Now open: " + s.current.name);
+      st.appendChild(b);
+      st.appendChild(document.createTextNode(s.current.status === "ready"
+        ? " – go to its tab, check the form, press Submit, then press “Applied – next gig” in the bar at the bottom right. " + s.remaining + " more queued."
+        : " – the form needs one manual click. The bar at the bottom right says which. " + s.remaining + " more queued."));
+      var row = el("div", "row"); row.style.marginTop = "10px";
+      [["applied", "\u2713 Applied \u2013 next gig", "btn small"], ["skip", "Skip", "btn small ghost"], ["later", "Later", "btn small ghost"]].forEach(function(a){
+        var bt = el("button", a[2], a[1]);
+        bt.addEventListener("click", function(){ api("/api/action", { action:a[0] }).then(function(){ setTimeout(poll, 1500); }); });
+        row.appendChild(bt);
+      });
+      st.appendChild(row);
+      $("stopAll").hidden = false;
+    } else {
+      st.className = "status";
+      $("stopAll").hidden = !s.remaining;
+    }
+    load();
+  }).catch(function(){});
+}
+
+$("chips").addEventListener("click", function(e){
+  var b = e.target.closest(".chip"); if (!b) return;
+  filter = b.dataset.f;
+  Array.prototype.forEach.call(document.querySelectorAll(".chip"), function(x){ x.setAttribute("aria-pressed", String(x === b)); });
+  render();
+});
+$("cat").addEventListener("change", function(){ state.cat = this.value; render(); });
+$("sort").addEventListener("change", function(){ state.sort = this.value; render(); });
+$("hideDone").addEventListener("change", function(){ state.hideDone = this.checked; render(); });
+$("startAll").addEventListener("click", function(){ start(visible().map(function(g){ return g.id; })); });
+$("stopAll").addEventListener("click", function(){ api("/api/stop", {}).then(poll); });
+
+$("profileForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var data = {};
+  Array.prototype.forEach.call(this.elements, function(f){ if (f.name && f.value) data[f.name] = f.name === "state" ? f.value.toUpperCase() : f.value; });
+  api("/api/profile", data).then(function(){ $("saved").textContent = "Saved."; hasProfile = true; lastSig = ""; load(); $("profilePanel").style.display = "none"; });
+});
+
+api("/api/profile").then(function(p){
+  Array.prototype.forEach.call($("profileForm").elements, function(f){ if (f.name && p[f.name] != null) f.value = p[f.name]; });
+});
+load().then(function(){
+  if (hasProfile) {
+    var link = el("button", "btn ghost small", "Edit my details");
+    link.addEventListener("click", function(){ $("profilePanel").style.display = ""; link.remove(); });
+    $("lead").after(link);
+  }
+});
+setInterval(poll, 2500);
+})();
+</script>
+</body>
+</html>

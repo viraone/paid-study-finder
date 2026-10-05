@@ -1,2 +1,9 @@
 client_secret*.json
 .DS_Store
+automation/node_modules/
+automation/.browser-profile/
+automation/profile.json
+automation/state.json
+automation/verify-log.txt
+automation/logs/
+automation/server.log

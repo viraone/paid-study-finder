@@ -1,0 +1,18 @@
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "email": "jane@example.com",
+  "phone": "206-555-0100",
+  "city": "Seattle",
+  "state": "WA",
+  "zip": "98101",
+  "country": "US",
+  "birthdate": "1990-01-31",
+  "gender": "Female",
+  "employer": "",
+  "jobTitle": "",
+  "industry": "",
+  "linkedin": "",
+  "cookies": "reject",
+  "prefetch": true
+}
